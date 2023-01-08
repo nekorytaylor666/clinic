@@ -25,7 +25,7 @@ function MyApp({
         <SessionProvider session={session}>
             <DependeciesWrapper>
                 <Head>
-                    <title>Клиника "Lucem"</title>
+                    <title>Клиника "PULSE"</title>
                     <link
                         rel="icon"
                         href="/icons/favicon.png"

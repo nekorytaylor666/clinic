@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 import { User } from "@lucem/shared-gql";
 import { ElevatedContainer } from "../components/atoms/ElevatedContainer";
 import { Avatar, Button, Heading, Text } from "@chakra-ui/react";

@@ -6,6 +6,7 @@ export const getTimeSlots = (
     endDate: string | Date,
     upcomingBookings: GetAllDoctors_getAllDoctors_upcomingBookings[],
 ): { time: { start: string; end: string }; isBooked: boolean }[] => {
+    console.log('test getTimeSlots');
     const bookings = upcomingBookings?.map((booking) => {
         return {
             startDate: booking.startDate,
